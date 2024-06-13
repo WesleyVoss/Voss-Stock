@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/style/header.css">
+    <link rel="stylesheet" href="assets/style/sect-1.css">
+    <link rel="stylesheet" href="assets/style/nav.css">
+    <link rel="stylesheet" href="assets/style/cards.css">
+    <link rel="stylesheet" href="assets/style/inverno.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC&display=swap" rel="stylesheet">
+    <title>Stock</title>
+</head>
+
+<body>
+
+    <div class="bg-sect-1">
+        <header>
+            <nav class="nav-bar">
+                <div class="logo">
+                    <h3>Voss</h3>
+                    <h4>Stock</h4>
+                </div>
+
+                <div class="nav-list">
+                    <ul>
+                        <li class="nav-item"><a class="nav-link" href="#inverno">Inverno</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Acessórios</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Sapatos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Quem somos?</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav-button">
+                    <button><a href="#">Contato</a></button>
+                </div>
+
+                <div class="mobile-menu_icon">
+                    <button onclick="menuShow()"><img class="icon" src="assets/img/Logos/menu_white_36dp.svg"
+                            alt=""></button>
+                </div>
+            </nav>
+
+            <div class="mobile-menu">
+                <ul>
+                    <li class="nav-item"><a class="nav-link" href="#inverno">Inverno</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Acessórios</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Sapatos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Quem somos?</a></li>
+                </ul>
+
+                <div class="nav-button">
+                    <button><a href="#">Contato</a></button>
+                </div>
+            </div>
+        </header>
+        <!-- Container principal, novidades -->
+        <div class="container-principal">
+            <div class="titulo-principal">
+                <h1>Voss Stock</h1>
+                <h4>Contém estilo e qualidade</h4>
+            </div>
+
+            <div class="container-novidades">
+                <h2>Novidades</h2>
+                <div class="container-card">
+                    <!-- card main -->
+                    <div class="card">
+                        <div class="group-top">
+                            <!-- card 1 -->
+                            <div class="card-items">
+                                <div class="card-top">
+                                    <div class="icons">
+                                        <img src="assets/img/Produtos/moletom/suerter-lacoste-01.png" alt="#">
+                                    </div>
+                                </div>
+                                <div class="card-bottom">
+                                    <h3>Lacoste</h3>
+                                    <h1>Sueter Premium</h1>
+                                    <h4>Descrição</h4>
+                                    <p>Produto de alta qualidade, feito de lã. Perfeito pra quem busca se manter
+                                        aquecido de forma
+                                        elegante!</p>
+                                    <div class="card-btn">
+                                        <button type="button" data-bs-toggle="offcanvas" data-bs-target="#canvas-1"
+                                            aria-controls="offcanvasRight">R$ 150,00</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- card 2 -->
+                            <div class="card-items">
+                                <div class="card-top">
+                                    <div class="icons">
+                                        <img src="assets/img/Produtos/moletom/moletom-boss-01.png" alt="#">
+                                    </div>
+                                </div>
+                                <div class="card-bottom">
+                                    <h3>Boss</h3>
+                                    <h1>Moletom Canguru</h1>
+                                    <h4>Descrição</h4>
+                                    <p>Moletom de inverno, feito com tecido de primeira, costuras de ótima qualidade.</p>
+                                    <div class="card-btn">
+                                        <button type="button" data-bs-toggle="offcanvas" data-bs-target="#canvas-2"
+                                            aria-controls="offcanvasRight">R$
+                                            150,00</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- card 3 -->
+                            <div class="card-items">
+                                <div class="card-top">
+                                    <div class="icons">
+                                        <img src="assets/img/Produtos/moletom/conjunto-nike-01.png" alt="#">
+                                    </div>
+                                </div>
+                                <div class="card-bottom">
+                                    <h3>Lacoste</h3>
+                                    <h1>Sueter Premium</h1>
+                                    <h4>Descrição</h4>
+                                    <p>poica coisa</p>
+                                    <div class="card-btn">
+                                        <button>R$ 150,00</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="group-bottom">
+                            <!-- card 4 -->
+                            <div class="card-items">
+                                <div class="card-top">
+                                    <div class="icons">
+                                        <img src="assets/img/Produtos/Sapatos/mizuno 1.png" alt="#">
+                                    </div>
+                                </div>
+                                <div class="card-bottom">
+                                    <h3>Lacoste</h3>
+                                    <h1>Sueter Premium</h1>
+                                    <h4>Descrição</h4>
+                                    <p>Produto de alta qualidade, feito de lã. Perfeito pra quem busca se manter
+                                        aquecido de forma
+                                        elegante!</p>
+                                    <div class="card-btn">
+                                        <button>R$ 150,00</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- card 5 -->
+                            <div class="card-items">
+                                <div class="card-top">
+                                    <div class="icons">
+                                        <img src="assets/img/Produtos/Sapatos/chinelo-boss.png" alt="#">
+                                    </div>
+                                </div>
+                                <div class="card-bottom">
+                                    <h3>Lacoste</h3>
+                                    <h1>Sueter Premium</h1>
+                                    <h4>Descrição</h4>
+                                    <p>Produto de alta qualidade, feito de lã. Perfeito pra quem busca se manter
+                                        aquecido de forma
+                                        elegante!</p>
+                                    <div class="card-btn">
+                                        <button>R$ 150,00</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- card 6 -->
+                            <div class="card-items">
+                                <div class="card-top">
+                                    <div class="icons">
+                                        <img src="assets/img/Produtos/Acesorios/juliete 1.png " alt="#">
+                                    </div>
+                                </div>
+                                <div class="card-bottom">
+                                    <h3>Lacoste</h3>
+                                    <h1>Sueter Premium</h1>
+                                    <h4>Descrição</h4>
+                                    <p>Produto de alta qualidade, feito de lã. Perfeito pra quem busca se manter
+                                        aquecido de forma
+                                        elegante!</p>
+                                    <div class="card-btn">
+                                        <button>R$ 150,00</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="btn-ver_mais">
+                    <button><a href="#">Ver outros</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <main>
+        <section id="inverno" class="container-main">
+            <div class="titulo-main">
+                <h1>O frio já está aí!</h1>
+                <h4>Que tal dar uma olhada no nosso estoque de inverno?</h4>
+            </div>
+
+            <div class="container-inverno">
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+
+    <!-- offcanvas -->
+
+    <!-- 1 -->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="canvas-1" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasRightLabel">Voss Stock</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="offcanvas-desc">
+                <h5>Descrição</h5>
+                Produto de alta qualidade, feito de lã. Perfeito pra quem busca se manter aquecido de forma elegante!
+
+                <div>R$ 170,00</div>
+                
+
+
+
+                <div id="carouselExample" class="carousel slide">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="assets/img/Produtos/moletom/suerter-lacoste-01.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/img/Produtos/moletom/moletom-lacoste-01.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/img/Produtos/moletom/Sem Título-1.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
+                <div class="offcanvas-btn">
+                    <button>WhatsApp</button>
+                    <small>*Entre em contato com algum de nossos atendentes para fazer seu pedido.</small>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 2 -->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="canvas-2" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasRightLabel">Voss Stock</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="offcanvas-desc">
+                <h4>Descrição</h4>
+                <h6>Produto de alta qualidade, feito de lã. Perfeito pra quem busca se manter
+                    aquecido de forma
+                    elegante!</h6>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="assets/js/nav.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
