@@ -1,0 +1,87 @@
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #D9D9D9;
+    padding: 5rem;
+}
+
+.img-footer {
+    width: 2rem;
+    margin-right: 1rem;
+}
+
+.footer-left ul, .footer-right ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.link-footer {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+#canvas-footer {
+    height: 60%;
+}
+
+.maps-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+}
+
+#canvas-footer {
+    background-color: #d9d9d9;
+}
+
+/* formulario footer */
+
+.header-canvas-form {
+    background-color: #D9D9D9;
+}
+
+#canvas-footer-form {
+    height: 50vh;
+}
+
+.formulario-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+
+    height: 100%;
+}
+
+.label-email, .label-mesage {
+    display: flex;
+    flex-direction: column;
+    
+
+    font-weight: 500;
+}
+
+#email {
+    width: 50vw;
+    height: 2rem;
+}
+
+#message {
+    width: 50vw;
+    height: 5rem;
+}
+
+.btn-form {
+    width: 100px;
+    height: 40px;
+    border: 2px solid;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-weight: 500;
+}

@@ -1,0 +1,35 @@
+.container-quem_somos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    margin-inline: 20vw;
+    margin-block: 5rem;
+    text-align: center;
+}
+
+.container-quem_somos ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5rem;
+    justify-self: center;
+    align-self: center;
+}
+
+.container-quem_somos p {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.img-logo {
+    width: 100%;
+}
+
+@media screen and (max-width: 750px) {
+    .container-quem_somos ul {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+        margin: 2rem;
+    }
+}
